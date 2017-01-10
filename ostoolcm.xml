@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ostoolcm>
+<ifile>
+  <InputPfad></InputPfad>   <!--<InputPfad>D:\03_Projekte\ostoolc\ostoolcm\ostoolcm\</InputPfad> -->
+  <Datei>sample_OS-BS.xlsx</Datei>
+  <sheet>os-bs</sheet> <!-- worksheet mit os-bs-tabelle -->
+  <PositionsNummer>3</PositionsNummer> <!--spalte mit PosNr-->
+  <PosArt>5</PosArt> <!-- spalte mit PosArt-->
+  <PosTitle>10</PosTitle> <!-- spalte mit PosTitleOriginal-->
+  <FullPath>25</FullPath> <!-- bei dieser spalte wird FullPath eingefügt -->
+  <ZeileStart>6</ZeileStart> <!-- ab dieser zeile stehen die daten (bis zur ersten zeile mit empty PosNr)-->
+  <PosSep>.</PosSep> <!-- separator für elemente in PosNr -->
+</ifile>
+
+  <osgen>
+    <Slash>\</Slash>
+    <DirSep>-</DirSep>
+    <WrtPosArt>True</WrtPosArt> <!--True=PosArt wird in dirname geschrieben -->
+    <OutputPfad>F:\geverlios</OutputPfad>
+  </osgen>
+
+</ostoolcm>
